@@ -3,7 +3,7 @@ import Smallbutton from '../Component/Smallbutton'
 
 function Mypage() {
   return (
-    <div>
+    <div className='main'>
         <div className='mainCalcDiv'>
              <div className='inputDiv'>
                 <input className='input'/>

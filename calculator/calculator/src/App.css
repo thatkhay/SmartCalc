@@ -3,6 +3,19 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(36, 36, 35);
+}
+.main{
+  border: 1px black solid;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: rgb(41, 56, 1);
 }
 .mainCalcDiv{
   width: 30%;
@@ -10,14 +23,16 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  width: 8rem;
 }
 .input{
   border-radius: 0.5rem;
   height: 3rem;
   width: 17rem;
+  text-align: right;
 }
 .smallButton{
-  height: 1rem;
+  height: 1.5rem;
   width: 3rem;
 }
 .buttonDiv {
