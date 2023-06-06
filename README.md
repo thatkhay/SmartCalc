@@ -1,0 +1,2 @@
+# SmartCalc
+a calculator app
