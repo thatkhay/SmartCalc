@@ -1,2 +1,2 @@
 #   SmartCalc
-###   my calculator app
+###   My calculator app
