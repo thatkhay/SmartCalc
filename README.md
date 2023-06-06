@@ -1,2 +1,2 @@
-#   SmartCalc
-###   My calculator app
+<!-- #   SmartCalc
+###   My calculator app -->
