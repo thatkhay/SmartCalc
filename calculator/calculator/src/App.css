@@ -36,6 +36,8 @@
   width: 100%;
   text-align: right;
   font-family: 'Roboto Mono', monospace;
+  padding: 0.4rem;
+  font-size: 1.5rem;
 }
 .smallButton{
   height: 1.5rem;

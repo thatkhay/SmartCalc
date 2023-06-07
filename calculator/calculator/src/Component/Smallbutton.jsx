@@ -1,9 +1,13 @@
 import React from 'react'
 
-function Smallbutton({value}) {
+function Smallbutton( {value, onClick} ) {
+  const handleClick = (e) => {
+   console.log(e.target.innerText);
+   onClick(value)
+  }
   return (
     <div>
-        <button className='smallButton'>{value}</button>
+        <button className='smallButton' onClick={handleClick}>{value}</button>
     </div>
   )
 }
