@@ -13,7 +13,7 @@
 }
 .main{
   border: 1px black solid;
-  width: 39%;
+  width: 24%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,17 +23,18 @@
   height: 50%;
 }
 .mainCalcDiv{
-  width: 30%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   width: 100%;
+ 
 }
 .input{
   border-radius: 0.5rem;
   height: 3rem;
-  width: 100%;
+  width: 90%;
   text-align: right;
   font-family: 'Roboto Mono', monospace;
   padding: 0.4rem;
@@ -44,6 +45,7 @@
   width: 3rem;
   font-family: 'Roboto Mono', monospace;
   background-color: rgb(200, 202, 202);
+  cursor: pointer;
 }
 .smallButton:active{
 color: rgb(79, 80, 3);
@@ -63,4 +65,12 @@ background-color: azure;
   width: 5rem;
   margin-top: 1.4rem;
   border-radius: 0.5rem;
+}
+
+
+@media (min-width: 0px) and (max-width: 850px) {
+  .main{
+    border: 1px rgb(63, 63, 63) solid;
+    width: 75%;
+  }
 }
